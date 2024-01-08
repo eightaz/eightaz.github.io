@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>GlobaTrans</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style type="text/tailwindcss">
+			@layer utilities {
+				h1 {
+					@apply text-center text-xl font-bold;
+				}
+
+				h2 {
+					@apply text-lg mt-4 mb-2 font-semibold;
+				}
+
+				h3 {
+					@apply font-medium;
+				}
+
+				p {
+					@apply mb-1;
+				}
+
+        .faq-list {
+          @apply list-decimal list-inside space-y-1;
+        }
+
+        .question {
+          @apply font-medium text-lg inline;
+        }
+
+        .answer {
+          @apply block;
+        }
+
+        .sign-up {
+          @apply px-8 py-2 bg-gradient-to-b from-lime-500 to-lime-600 hover:from-lime-300 hover:to-lime-400 rounded-lg;
+        }
+			}
+		</style>
+	</head>
+	<body
+		class="min-w-screen min-h-screen flex items-center justify-center bg-center bg-cover relative pb-20 xl:pt-8"
+		style="background-image: url('/background.jpg')"
+	>
+		<div
+			class="container max-w-6xl bg-gradient-to-b from-gray-300 to-gray-200 p-4 md:p-8 lg:px-12"
+		>
+      <img src="/emr_express.png" alt="EMR Express Inc." />
+
+      <h2>EMR offer for drivers:</h2>
+
+      <ul class="list-disc list-inside mb-1 pl-4">
+        <li>OTR position, Solo drivers only;</li>
+
+        <li>
+          <p class="inline">Payment for 1099 Company driver:</p>
+          <ul class="list-disc list-inside mb-1 pl-4">
+            <li>Dry van $0.70;</li>
+            <li>Reefer $0.75;</li>
+          </ul>
+        </li>
+
+        <li>
+          We always offer competitive miles that represent drivers' performance.
+          So, if you are a reliable team player, you can do <nobr>~2800-3000 miles</nobr> a week as a solo driver. We drive legally by logbook only!
+        </li>
+
+        <li>Full 24/7 dispatch & trucks service support;</li>
+        <li>Pet & Rider Policy;</li>
+        <li>
+          Paid detention layovers, breakdowns, extra stops, good inspections;
+        </li>
+        <li>Freightliner Cascadia’s that are no older than 2 years;</li>
+        <li>Trucks with Automatic transmission only;</li>
+        <li>
+          Deductions: $2000 Deductible insurance ($200x10 weeks) Refundable
+          after 30 days;
+        </li>
+      </ul>
+
+			<h2>Additional information:</h2>
+
+      <ul class="list-disc list-inside mb-4 pl-4">
+        <li>We require at least 18 months verifiable driving experience;</;l>
+        <li>Must have Trucking GPS.</;l>
+        <li>
+          Company covers flight tickets, transportation from airport to our
+          location, hotel;
+        </li>
+        <li>Company located at 2250 South Chicago Street, Joliet IL 60436;</;l>
+      </ul>
+
+      <img src="/emr_faq.png" alt="FAQ" class="mb-4 mt-8" />
+
+      <h2>Frequently Asked Questions</h2>
+
+      <ul class="faq-list">
+        <li>
+          <div class="question">What type of contracts do you offer for drivers?</div>
+          <div class="answer">
+            To work legally on 1099, driver must have an open business with the IRS (he must be able to provide IRS letter with his EIN) and he must have open business bank account.
+          </div>
+        </li>
+
+        <li>
+          <div class="question">What is the minimum driving experience that EMR requires?</div>
+          <div class="answer">At least 18 months of verifiable driving experience.</div>
+        </li>
+
+        <li>
+          <div class="question">Are All Miles Paid? (Empty & Loaded)?</div>
+          <div class="answer">Yes, we pay all miles, Address to Address.</div>
+        </li>
+
+        <li>
+          <div class="question">In case of accident (driver’s fault) what charges can driver expect?</div>
+          <div class="answer">Deducted by invoice, every week, from paycheck by agreement with driver.</div>
+        </li>
+
+        <li>
+          <div class="question">Do you pay drivers for detention, extra stops, layovers and inspections?</div>
+          <div class="answer">Detention ~$25/hour if driver waits more than 4 hours full layover ~ $100 | Extra stop $50 | For good inspection, depending on level $100 - $300.</div>
+        </li>
+
+        <li>
+          <div class="question">Do You Have A Pet & Rider Policy?</div>
+          <div class="answer">Yes, but Driver will need to cover truck cleaning expenses.</div>
+        </li>
+
+        <li>
+          <div class="question">Driver payment information?</div>
+          <div class="answer">First paycheck comes on the second week (if you start Monday 1st, first
+          paycheck 15th) and then every Friday (Direct deposit).</div>
+        </li>
+
+        <li>
+          <div class="question">What kind of ELD do you use?</div>
+          <div class="answer">Samsara. We drive legally by logbook only!</div>
+        </li>
+
+        <li>
+          <div class="question">Where EMR operates the most?</div>
+          <div class="answer">Most times we operate Midwest, East, sometimes West. During winter time, our top priority is safety.</div>
+        </li>
+        <li>
+          <div class="question">Default Home time for drivers, except Florida.</div>
+          <div class="answer">One full week on the road - 2 days off. Drivers from Florida must leave the truck at the yard and fly home (company covers all travel expenses). Note, drivers from top FL (Jacksonville) can go home with truck, but must stay OTR 3 week minimum.
+          </div>
+        </li>
+
+        <li>
+          <div class="question">What Are Your Trucks Governed At?</div>
+          <div class="answer">70 MPH</div>
+        </li>
+
+        <li>
+          <div class="question">Are Trucks Fully Equipped With APU's, Microwaves, Inverters, Fridges, PrePass, Ipass?</div>
+          <div class="answer">New trucks are equipped with APU, Inverter, Fridge. All trucks have PrePass and Ipass.</div>
+        </li>
+
+        <li>
+          <div class="question">How long is your orientation?</div>
+          <div class="answer">Most of the time one day, but can last for 3 days maximum.</div>
+        </li>
+
+        <li>
+          <div class="question">How do you assign trucks to drivers during orientation?</div>
+          <div class="answer">By driving test results, candidate attitude and overall driving experience.
+          </div>
+      </li>
+
+        <li>
+          <div class="question">Does company cover truck parking expenses during home time?</div>
+          <div class="answer">No, driver will need to cover truck parking by him self.</div>
+        </li>
+
+        <li>
+          <div class="question">Company base address is?</div>
+          <div class="answer">2250 South Chicago Street, Joliet IL 60436.</div>
+        </li>
+
+        <li>
+          <div class="question">Do you provide OCC insurance?</div>
+          <div class="answer">The company will deduct $40 for your OCC insurance.</div>
+        </li>
+      </ul>
+
+
+			<div class="flex justify-center text-center font-bold uppercase space-x-2 mt-4">
+				<a
+          href="https://docs.google.com/forms/d/1T88kXSCvEOXTJs3bt7X-RE9Ug2pktObGnVf4WBIqDjs/viewform?edit_requested=true"
+          target="_blank"
+					class="sign-up"
+				>
+					Sign up
+				</a>
+			</div>
+
+			<div
+				class="absolute left-0 right-0 bottom-0 p-4 text-center bg-black bg-opacity-60 text-white"
+			>
+				© Globatrans United LLC all rights reserved 2024
+			</div>
+		</div>
+	</body>
+</html>
