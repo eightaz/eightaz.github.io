@@ -13,7 +13,7 @@
 				}
 
 				h2 {
-					@apply text-lg mt-4 mb-2 font-semibold;
+					@apply text-2xl mt-4 mb-2 font-semibold;
 				}
 
 				h3 {
@@ -185,16 +185,28 @@
         </li>
       </ul>
 
+      <div class="flex justify-center">
+        <div class="group">
+          <h2 class="group-hover:text-red-500">You <span class="underline uppercase">must complete both forms</span> to be eligible.</h2>
 
-			<div class="flex justify-center text-center font-bold uppercase space-x-2 mt-4">
-				<a
-          href="https://docs.google.com/forms/d/1T88kXSCvEOXTJs3bt7X-RE9Ug2pktObGnVf4WBIqDjs/viewform?edit_requested=true"
-          target="_blank"
-					class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
-				>
-          <span class="relative z-10">Sign up</span>
-				</a>
-			</div>
+          <div class="flex justify-center text-center font-bold uppercase space-x-4 mt-4">
+            <a
+              href="https://docs.google.com/forms/d/1T88kXSCvEOXTJs3bt7X-RE9Ug2pktObGnVf4WBIqDjs/viewform?edit_requested=true"
+              target="_blank"
+              class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+            >
+              <span class="relative z-10">form 1</span>
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/17vxTpYtKeBFtqTViuTg3KVXQgiUaE77deh74WfbqcJs/viewform?edit_requested=true"
+              target="_blank"
+              class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+            >
+              <span class="relative z-10">form 2</span>
+            </a>
+          </div>
+        </div>
+      </div>
 
 			<div
 				class="absolute left-0 right-0 bottom-0 p-4 text-center bg-black bg-opacity-60 text-white"
